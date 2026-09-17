@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+<question type="category">
+  <category><text>$course$/top/Evaluación final</text></category>
+  <info format="html"><text>Preguntas de la evaluación final del programa, sobre los dos componentes formativos.</text></info>
+</question>
+
+<question type="multichoice">
+  <name><text>CE - Qué es el entorno empresarial</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Según el componente formativo 1, ¿qué reúne el entorno empresarial?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>El entorno empresarial reúne las condiciones económicas, sociales, tecnológicas, políticas, ambientales y culturales que rodean a toda organización.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><hidden>0</hidden>
+  <single>true</single><shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Las condiciones económicas, sociales, tecnológicas, políticas, ambientales y culturales que rodean a la organización.</p>]]></text><feedback format="html"><text><![CDATA[<p>Correcto.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Exclusivamente el catálogo de productos y servicios que ofrece la empresa.</p>]]></text><feedback format="html"><text><![CDATA[<p>Eso es parte interna del negocio, no del entorno.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>La eficiencia de los procesos internos de la organización.</p>]]></text><feedback format="html"><text><![CDATA[<p>Corresponde al análisis interno, no al entorno.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>La campaña publicitaria con que la empresa llega a sus clientes.</p>]]></text><feedback format="html"><text><![CDATA[<p>Es una decisión de la empresa, no una condición del entorno.</p>]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>CE - Herramienta para el contexto general</text></name>
+  <questiontext format="html"><text><![CDATA[<p>¿Qué herramienta examina los factores generales que rodean al negocio (económicos, políticos, tecnológicos, ambientales, entre otros)?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>El análisis PESTEL examina los factores generales del entorno; el análisis del sector se trabaja con otras herramientas, como las cinco fuerzas.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><hidden>0</hidden>
+  <single>true</single><shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>El análisis PESTEL.</p>]]></text><feedback format="html"><text><![CDATA[<p>Correcto.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>El registro mercantil.</p>]]></text><feedback format="html"><text><![CDATA[<p>Es un trámite de formalización, no una herramienta de análisis.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>El flujo de caja mensual.</p>]]></text><feedback format="html"><text><![CDATA[<p>Es una herramienta financiera interna.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>El etiquetado del producto.</p>]]></text><feedback format="html"><text><![CDATA[<p>Es una obligación frente al consumidor.</p>]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>CE - Caracterización zonal</text></name>
+  <questiontext format="html"><text><![CDATA[<p>¿Qué aporta la caracterización zonal a un proyecto de emprendimiento?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>Describe las condiciones económicas, sociales y productivas del territorio donde se instalará el negocio.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><hidden>0</hidden>
+  <single>true</single><shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>La descripción de las condiciones económicas, sociales y productivas del territorio.</p>]]></text><feedback format="html"><text><![CDATA[<p>Correcto.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>La clasificación de las empresas según su forma jurídica.</p>]]></text><feedback format="html"><text><![CDATA[<p>Es otro tipo de información.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>El listado de trámites para formalizar un negocio.</p>]]></text><feedback format="html"><text><![CDATA[<p>Corresponde a la formalización.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>El inventario de recursos internos de la organización.</p>]]></text><feedback format="html"><text><![CDATA[<p>Es análisis interno, no del territorio.</p>]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>CE - Planes de desarrollo</text></name>
+  <questiontext format="html"><text><![CDATA[<p>¿Para qué le sirve a un emprendedor revisar el plan de desarrollo de su municipio o departamento?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>Permite conocer las prioridades de inversión, los programas de apoyo y las apuestas productivas, y usar ese dato para sustentar la pertinencia del proyecto.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><hidden>0</hidden>
+  <single>true</single><shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Para identificar prioridades de inversión y programas de apoyo, y sustentar la pertinencia de su proyecto.</p>]]></text><feedback format="html"><text><![CDATA[<p>Correcto.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Para conocer el precio de venta que debe fijar a sus productos.</p>]]></text><feedback format="html"><text><![CDATA[<p>El precio no se define en el plan de desarrollo.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Para obtener automáticamente un crédito bancario.</p>]]></text><feedback format="html"><text><![CDATA[<p>No otorga financiación por sí mismo.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Para reemplazar el estudio de mercado.</p>]]></text><feedback format="html"><text><![CDATA[<p>Es información complementaria, no sustituye el estudio de mercado.</p>]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>CE - Fuentes de información</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Un emprendedor quiere cuantificar preferencias, disposición a pagar y frecuencia de consumo en su población objetivo. ¿Qué técnica es la adecuada?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>La encuesta con cuestionario cerrado aplicada a una muestra permite cuantificar y comparar entre segmentos. La entrevista explora razones, pero no cuantifica.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><hidden>0</hidden>
+  <single>true</single><shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Aplicar un cuestionario cerrado a una muestra de la población objetivo.</p>]]></text><feedback format="html"><text><![CDATA[<p>Correcto.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Conversar de manera informal con dos conocidos del sector.</p>]]></text><feedback format="html"><text><![CDATA[<p>No permite cuantificar ni generalizar.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Consultar únicamente publicaciones en redes sociales del sector.</p>]]></text><feedback format="html"><text><![CDATA[<p>Es una fuente parcial y sin control de muestra.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Estimar las cifras con base en la experiencia personal.</p>]]></text><feedback format="html"><text><![CDATA[<p>No es evidencia verificable.</p>]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>CE - Indicadores bien formulados</text></name>
+  <questiontext format="html"><text><![CDATA[<p>¿Cuál de estos indicadores está mejor formulado para medir el impacto de una idea de negocio?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>Un buen indicador describe con precisión qué se mide y en quién, se expresa en una unidad cuantificable y resulta realista con los recursos del proyecto.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><hidden>0</hidden>
+  <single>true</single><shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Empleos formales creados durante los primeros doce meses de operación.</p>]]></text><feedback format="html"><text><![CDATA[<p>Correcto: preciso, cuantificable y verificable.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Mejorar mucho la situación de la comunidad.</p>]]></text><feedback format="html"><text><![CDATA[<p>Enunciado vago: no define qué se mide ni en quién.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Vincular doscientos proveedores locales en el primer semestre, con dos personas en el equipo.</p>]]></text><feedback format="html"><text><![CDATA[<p>Meta desproporcionada frente a los recursos: resta credibilidad.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Lograr que el negocio sea reconocido en la región.</p>]]></text><feedback format="html"><text><![CDATA[<p>No tiene unidad de medida ni forma de verificación.</p>]]></text></feedback></answer>
+</question>
+
+<question type="truefalse">
+  <name><text>CE - Meta realista</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Una meta desproporcionada frente a los recursos y la capacidad instalada del proyecto desmotiva al equipo y resta credibilidad ante quien evalúa la propuesta.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>Verdadero. El indicador debe ser realista con los recursos, el tiempo y la capacidad del proyecto.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><hidden>0</hidden>
+  <answer fraction="100" format="moodle_auto_format"><text>true</text><feedback format="html"><text><![CDATA[<p>Correcto.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="moodle_auto_format"><text>false</text><feedback format="html"><text><![CDATA[<p>No: una meta imposible debilita la propuesta.</p>]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>CE - Innovación incremental y disruptiva</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Un taller mejora poco a poco su proceso de corte para reducir desperdicio y tiempos. ¿De qué tipo de innovación se trata?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>Los cambios pequeños y sostenidos sobre lo que ya existe corresponden a la innovación incremental; la disruptiva cambia las reglas del mercado.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><hidden>0</hidden>
+  <single>true</single><shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Innovación incremental.</p>]]></text><feedback format="html"><text><![CDATA[<p>Correcto.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Innovación disruptiva.</p>]]></text><feedback format="html"><text><![CDATA[<p>La disruptiva transforma el mercado o desplaza a las soluciones existentes.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>No es innovación, solo mantenimiento.</p>]]></text><feedback format="html"><text><![CDATA[<p>La mejora continua sí es innovación incremental.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Innovación de modelo de negocio.</p>]]></text><feedback format="html"><text><![CDATA[<p>Esa ocurre al cambiar el canal, el segmento o la forma de cobrar.</p>]]></text></feedback></answer>
+</question>
+
+<question type="truefalse">
+  <name><text>CE - Innovación en el modelo de negocio</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Cambiar el canal de venta o el segmento de clientes es innovación de modelo de negocio, aunque el producto siga siendo el mismo.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>Verdadero. La innovación no se limita al producto: también ocurre en la forma de llegar al cliente y de generar ingresos.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><hidden>0</hidden>
+  <answer fraction="100" format="moodle_auto_format"><text>true</text><feedback format="html"><text><![CDATA[<p>Correcto.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="moodle_auto_format"><text>false</text><feedback format="html"><text><![CDATA[<p>No: el modelo de negocio también admite innovación.</p>]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>CE - Análisis de causa</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Al analizar un problema en la empresa, ¿qué recomienda el componente formativo 2?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>La causa suele estar varios pasos atrás del síntoma: hay que identificarla antes de elegir la solución.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><hidden>0</hidden>
+  <single>true</single><shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Buscar la causa real, que suele estar varios pasos atrás del síntoma visible.</p>]]></text><feedback format="html"><text><![CDATA[<p>Correcto.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Ejecutar primero la solución y descubrir la causa sobre la marcha.</p>]]></text><feedback format="html"><text><![CDATA[<p>Así se corrigen síntomas y el problema regresa.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Atender el síntoma más visible, que suele ser la causa.</p>]]></text><feedback format="html"><text><![CDATA[<p>El síntoma rara vez coincide con la causa.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Esperar la respuesta del financiador antes de analizar.</p>]]></text><feedback format="html"><text><![CDATA[<p>El análisis es previo e independiente de la financiación.</p>]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>CE - Matriz de ponderación</text></name>
+  <questiontext format="html"><text><![CDATA[<p>¿Para qué se usa una matriz de ponderación de alternativas?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>Sirve para comparar alternativas con criterios definidos previamente y calificarlas, de modo que la decisión sea explicable y no dependa de la intuición.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><hidden>0</hidden>
+  <single>true</single><shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Para comparar alternativas con criterios definidos de antemano y calificarlas.</p>]]></text><feedback format="html"><text><![CDATA[<p>Correcto.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Para registrar las ventas mensuales de cada línea de producto.</p>]]></text><feedback format="html"><text><![CDATA[<p>Eso es un reporte comercial.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Para calcular los impuestos que debe pagar la empresa.</p>]]></text><feedback format="html"><text><![CDATA[<p>No corresponde a esa herramienta.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Para elegir la alternativa que proponga la persona con más autoridad.</p>]]></text><feedback format="html"><text><![CDATA[<p>Eso contradice el propósito de la matriz.</p>]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>CE - Decidir sobre lo ya invertido</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Un proyecto ya consumió buena parte del presupuesto y los resultados no aparecen. Según el material, ¿qué debe orientar la decisión de continuar o no?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>La decisión debe valorar lo que falta por invertir y el beneficio esperado, no el dinero que ya no se recupera.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><hidden>0</hidden>
+  <single>true</single><shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Lo que falta por invertir y el beneficio que aún puede obtenerse.</p>]]></text><feedback format="html"><text><![CDATA[<p>Correcto.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>El dinero ya gastado, para no perderlo.</p>]]></text><feedback format="html"><text><![CDATA[<p>Ese dinero no se recupera y no debería condicionar la decisión.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>El tiempo que lleva el equipo trabajando en el proyecto.</p>]]></text><feedback format="html"><text><![CDATA[<p>Es un costo ya asumido.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>La opinión del proveedor principal.</p>]]></text><feedback format="html"><text><![CDATA[<p>No es el criterio central de la decisión.</p>]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>CE - Elementos del proceso</text></name>
+  <questiontext format="html"><text><![CDATA[<p>¿Cuáles son los elementos de un proceso, según el componente formativo 2?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>Entradas, transformación, salidas y retroalimentación.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><hidden>0</hidden>
+  <single>true</single><shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Entradas, transformación, salidas y retroalimentación.</p>]]></text><feedback format="html"><text><![CDATA[<p>Correcto.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Compras, ventas, inventario y utilidad.</p>]]></text><feedback format="html"><text><![CDATA[<p>Son áreas del negocio, no elementos del proceso.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Creatividad, inversión y tecnología.</p>]]></text><feedback format="html"><text><![CDATA[<p>Son recursos para innovar, no la estructura del proceso.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Planeación, ejecución y cierre contable.</p>]]></text><feedback format="html"><text><![CDATA[<p>Corresponde a la gestión de proyectos.</p>]]></text></feedback></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>CE - Instrumentos de apoyo</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Una persona quiere iniciar un negocio y no cuenta con capital propio ni experiencia en gestión. Según el material, ¿cuál es el punto de entrada más frecuente?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>El SENA ofrece formación, asesoría en formulación de proyectos y acceso al Fondo Emprender; las cámaras de comercio acompañan la formalización y el plan de negocio.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><hidden>0</hidden>
+  <single>true</single><shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>La oferta del SENA: formación, asesoría en formulación de proyectos y acceso al Fondo Emprender.</p>]]></text><feedback format="html"><text><![CDATA[<p>Correcto.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Un crédito de libre inversión con una entidad financiera.</p>]]></text><feedback format="html"><text><![CDATA[<p>Exige garantías y capacidad de pago desde el inicio.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Buscar un empleo formal mejor remunerado.</p>]]></text><feedback format="html"><text><![CDATA[<p>No corresponde a la ruta de emprendimiento.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Vender participación accionaria de la empresa antes de constituirla.</p>]]></text><feedback format="html"><text><![CDATA[<p>No es el punto de entrada habitual para quien inicia.</p>]]></text></feedback></answer>
+</question>
+
+</quiz>
