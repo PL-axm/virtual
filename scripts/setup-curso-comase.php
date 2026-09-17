@@ -99,7 +99,8 @@ function importar_preguntas(stdClass $course, string $archivo): array {
     $qformat->setFilename($contentdir . '/' . $archivo);
     $qformat->setRealfilename($archivo);
     $qformat->setContexts($contexts->having_one_edit_tab_cap('import'));
-    $qformat->setCategory(question_get_default_category($contexts->lowest()->id));
+    // Crea las categorias por defecto del banco si el curso aun no las tiene.
+    $qformat->setCategory(question_make_default_categories($contexts->all()));
     $qformat->setCatfromfile(true);
     $qformat->setContextfromfile(false);
     $qformat->setStoponerror(true);
