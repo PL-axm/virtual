@@ -12,13 +12,13 @@ require_once($CFG->libdir . '/clilib.php');
 require_once($CFG->libdir . '/completionlib.php');
 require_once($CFG->dirroot . '/mod/quiz/locallib.php');
 
-[$opciones] = cli_get_params(['confirmar' => false]);
+[$opciones] = cli_get_params(['confirmar' => false, 'curso' => 'COM-ASE']);
 if (!$opciones['confirmar']) {
-    cli_error("Ejecuta con --confirmar. Este script genera intentos reales en el curso piloto.");
+    cli_error("Ejecuta con --confirmar [--curso=CODIGO]. Genera intentos reales en el curso.");
 }
 
 $usuario = $DB->get_record('user', ['username' => 'prueba.demo'], '*', MUST_EXIST);
-$curso = $DB->get_record('course', ['shortname' => 'COM-ASE'], '*', MUST_EXIST);
+$curso = $DB->get_record('course', ['shortname' => $opciones['curso']], '*', MUST_EXIST);
 \core\session\manager::set_user($usuario);
 
 $completion = new completion_info($curso);
@@ -30,7 +30,7 @@ echo "Curso: {$curso->fullname}\n\n";
 // 1. Marcar como vistas las páginas de contenido.
 echo "1. Lecciones\n";
 foreach ($modinfo->get_cms() as $cm) {
-    if ($cm->modname !== 'page') {
+    if (!in_array($cm->modname, ['page', 'resource'], true)) {
         continue;
     }
     $estado = $completion->get_data($cm, false, $usuario->id);
@@ -46,8 +46,10 @@ foreach ($modinfo->get_cms() as $cm) {
 
 // 2. Responder los cuestionarios correctamente.
 echo "\n2. Cuestionarios\n";
-foreach (['COMASE-Q1', 'COMASE-Q2', 'COMASE-FINAL'] as $idnumber) {
-    $cm = $DB->get_record('course_modules', ['course' => $curso->id, 'idnumber' => $idnumber], '*', MUST_EXIST);
+foreach ($modinfo->get_cms() as $cm) {
+    if ($cm->modname !== 'quiz') {
+        continue;
+    }
     $quizobj = \mod_quiz\quiz_settings::create($cm->instance, $usuario->id);
     $quiz = $quizobj->get_quiz();
 
@@ -100,8 +102,12 @@ echo "   curso completado: " . ($completado ? 'SÍ (' . userdate($registro->time
 
 // 4. Certificado.
 echo "\n4. Certificado\n";
-$cmcert = $DB->get_record('course_modules', ['course' => $curso->id, 'idnumber' => 'COMASE-CERT'], '*', MUST_EXIST);
-$cert = $DB->get_record('customcert', ['id' => $cmcert->instance], '*', MUST_EXIST);
+$certinstance = $DB->get_record('customcert', ['course' => $curso->id], '*', IGNORE_MULTIPLE);
+if (!$certinstance) {
+    cli_error('El curso no tiene certificado.');
+}
+$cmcert = get_coursemodule_from_instance('customcert', $certinstance->id, $curso->id, false, MUST_EXIST);
+$cert = $certinstance;
 
 $modinfo = get_fast_modinfo($curso, $usuario->id);
 $info = new \core_availability\info_module($modinfo->get_cm($cmcert->id));
