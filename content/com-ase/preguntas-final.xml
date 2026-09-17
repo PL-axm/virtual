@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+<question type="category">
+  <category><text>$course$/top/Evaluación final</text></category>
+  <info format="html"><text>Banco de preguntas de la evaluación final del curso.</text></info>
+</question>
+
+<question type="multichoice">
+  <name><text>EF - Estilo agresivo</text></name>
+  <questiontext format="html"><text><![CDATA[<p>¿Cuál es la consecuencia más frecuente del estilo agresivo dentro de un equipo de trabajo?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>El estilo agresivo puede lograr obediencia inmediata, pero la gente deja de informar los problemas a tiempo.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><hidden>0</hidden>
+  <single>true</single><shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Las personas se defienden o se callan, y dejan de avisar los problemas a tiempo.</p>]]></text><feedback format="html"><text><![CDATA[<p>Correcto.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Mejora la confianza porque todo queda claro.</p>]]></text><feedback format="html"><text><![CDATA[<p>No: la claridad sin respeto destruye confianza.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Evita el conflicto en el equipo.</p>]]></text><feedback format="html"><text><![CDATA[<p>No: lo aumenta o lo vuelve subterráneo.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>No tiene efectos si los resultados se cumplen.</p>]]></text><feedback format="html"><text><![CDATA[<p>Los efectos aparecen en rotación y en errores no reportados.</p>]]></text></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>EF - Mensaje asertivo completo</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Un compañero entregó tarde un reporte y eso afectó tu presentación al cliente. ¿Cuál mensaje contiene hecho, efecto, propuesta y acuerdo?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>El mensaje completo describe el hecho, explica el efecto, propone una solución concreta y pide conformidad.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><hidden>0</hidden>
+  <single>true</single><shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>«El reporte llegó tres días después de lo acordado y presenté cifras incompletas al cliente. Propongo que me envíes el avance el miércoles, aunque no esté cerrado. ¿Te funciona así?»</p>]]></text><feedback format="html"><text><![CDATA[<p>Correcto: están los cuatro pasos.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>«El reporte llegó tarde otra vez. Así no se puede trabajar.»</p>]]></text><feedback format="html"><text><![CDATA[<p>Falta propuesta y acuerdo; además generaliza.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>«No te preocupes, ya lo resolví yo solo.»</p>]]></text><feedback format="html"><text><![CDATA[<p>Respuesta pasiva: el problema se repetirá.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>«Necesito que seas más responsable con los tiempos.»</p>]]></text><feedback format="html"><text><![CDATA[<p>Etiqueta a la persona en vez de describir el hecho.</p>]]></text></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>EF - Modelo de retroalimentación</text></name>
+  <questiontext format="html"><text><![CDATA[<p>¿Cuáles son los tres componentes de una retroalimentación útil según el curso?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>Situación, comportamiento observable e impacto. Luego, una pregunta abierta.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><hidden>0</hidden>
+  <single>true</single><shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Situación, comportamiento e impacto.</p>]]></text><feedback format="html"><text><![CDATA[<p>Correcto.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Elogio, crítica y elogio.</p>]]></text><feedback format="html"><text><![CDATA[<p>El «sándwich» forzado diluye el mensaje.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Diagnóstico, advertencia y sanción.</p>]]></text><feedback format="html"><text><![CDATA[<p>Eso es un proceso disciplinario, no retroalimentación.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Intención, personalidad y actitud.</p>]]></text><feedback format="html"><text><![CDATA[<p>Son interpretaciones, no hechos observables.</p>]]></text></answer>
+</question>
+
+<question type="truefalse">
+  <name><text>EF - Momento de la retroalimentación</text></name>
+  <questiontext format="html"><text><![CDATA[<p>La retroalimentación correctiva conviene darla en privado y dentro de los días siguientes al hecho.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>Verdadero. En privado lo que corrige, en público lo que reconoce, y lo antes posible.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><hidden>0</hidden>
+  <answer fraction="100" format="moodle_auto_format"><text>true</text><feedback format="html"><text><![CDATA[<p>Correcto.</p>]]></text></answer>
+  <answer fraction="0" format="moodle_auto_format"><text>false</text><feedback format="html"><text><![CDATA[<p>No: esperar semanas hace que el recuerdo ya no coincida.</p>]]></text></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>EF - Preparar una conversación difícil</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Antes de una conversación difícil, ¿cuál de estos objetivos es el más útil?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>El objetivo debe ser un acuerdo verificable, no una reacción emocional del otro.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><hidden>0</hidden>
+  <single>true</single><shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Salir con un acuerdo concreto: qué se hará, quién y para cuándo.</p>]]></text><feedback format="html"><text><![CDATA[<p>Correcto.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Que la otra persona entienda lo molesto que estás.</p>]]></text><feedback format="html"><text><![CDATA[<p>No es verificable ni resuelve el problema.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Dejar claro quién tuvo la culpa.</p>]]></text><feedback format="html"><text><![CDATA[<p>Centrarse en la culpa bloquea la solución.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Enumerar todos los problemas acumulados del último mes.</p>]]></text><feedback format="html"><text><![CDATA[<p>Un tema por conversación: si acumulas, no se escucha nada.</p>]]></text></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>EF - Apertura de la conversación</text></name>
+  <questiontext format="html"><text><![CDATA[<p>¿Cuál es una buena forma de abrir una conversación difícil?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>Anunciar el tema y la intención evita que la otra persona entre a la defensiva.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><hidden>0</hidden>
+  <single>true</single><shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>«Quiero hablar de los tiempos de entrega. Mi intención es salir con un acuerdo, no repartir culpas.»</p>]]></text><feedback format="html"><text><![CDATA[<p>Correcto.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>«Tenemos que hablar.» Y esperar a que el otro pregunte.</p>]]></text><feedback format="html"><text><![CDATA[<p>Genera alarma sin información.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>«Todo el equipo está incómodo con lo que haces.»</p>]]></text><feedback format="html"><text><![CDATA[<p>Usa terceros y generaliza.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Plantear el tema delante del equipo para que quede claro.</p>]]></text><feedback format="html"><text><![CDATA[<p>Corregir en público produce defensa.</p>]]></text></answer>
+</question>
+
+<question type="truefalse">
+  <name><text>EF - Pausa en el conflicto</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Pedir una pausa cuando la conversación se calienta es una forma de evadir el conflicto.</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>Falso. Una pausa acordada, con hora para retomar, evita decir cosas que después hay que reparar.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><hidden>0</hidden>
+  <answer fraction="0" format="moodle_auto_format"><text>true</text><feedback format="html"><text><![CDATA[<p>No, siempre que se acuerde cuándo retomar.</p>]]></text></answer>
+  <answer fraction="100" format="moodle_auto_format"><text>false</text><feedback format="html"><text><![CDATA[<p>Correcto.</p>]]></text></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>EF - Escucha activa en la práctica</text></name>
+  <questiontext format="html"><text><![CDATA[<p>¿Cuál de estas conductas rompe la escucha activa?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>El «sí, pero» anula lo que la otra persona acaba de decir.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><hidden>0</hidden>
+  <single>true</single><shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Responder «sí, pero...» apenas la persona termina de hablar.</p>]]></text><feedback format="html"><text><![CDATA[<p>Correcto.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Preguntar «¿qué te llevó a plantearlo así?».</p>]]></text><feedback format="html"><text><![CDATA[<p>Eso favorece la escucha.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Repetir con tus palabras lo que entendiste.</p>]]></text><feedback format="html"><text><![CDATA[<p>Eso es parafrasear: favorece la escucha.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Anotar un punto para no interrumpir.</p>]]></text><feedback format="html"><text><![CDATA[<p>Es una buena práctica.</p>]]></text></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>EF - Cierre del acuerdo</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Para que una conversación difícil no se repita a las dos semanas, el cierre debe incluir:</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>Qué se hará, quién, para cuándo y cómo se revisa; por escrito.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><hidden>0</hidden>
+  <single>true</single><shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Acciones concretas con responsable, fecha y forma de revisión, dejadas por escrito.</p>]]></text><feedback format="html"><text><![CDATA[<p>Correcto.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Un apretón de manos y la promesa de que no vuelve a pasar.</p>]]></text><feedback format="html"><text><![CDATA[<p>No es verificable.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Una advertencia sobre las consecuencias si se repite.</p>]]></text><feedback format="html"><text><![CDATA[<p>Puede ser necesario en otro contexto, pero no reemplaza el acuerdo.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Dejar el tema abierto para no presionar.</p>]]></text><feedback format="html"><text><![CDATA[<p>Garantiza que el problema regrese.</p>]]></text></answer>
+</question>
+
+<question type="multichoice">
+  <name><text>EF - Recibir retroalimentación</text></name>
+  <questiontext format="html"><text><![CDATA[<p>Tu jefe te señala un error delante de ti y no estás de acuerdo. ¿Qué conviene hacer primero?</p>]]></text></questiontext>
+  <generalfeedback format="html"><text><![CDATA[<p>Escuchar completo y pedir un ejemplo concreto antes de responder. El desacuerdo se plantea después, con hechos.</p>]]></text></generalfeedback>
+  <defaultgrade>1</defaultgrade><penalty>0</penalty><hidden>0</hidden>
+  <single>true</single><shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Escuchar completo, pedir un ejemplo concreto y agradecer; plantear tu versión después, con hechos.</p>]]></text><feedback format="html"><text><![CDATA[<p>Correcto.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Justificarte de inmediato para que no quede la idea equivocada.</p>]]></text><feedback format="html"><text><![CDATA[<p>En caliente, la conversación se cierra.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Aceptar todo sin comentar, aunque no sea cierto.</p>]]></text><feedback format="html"><text><![CDATA[<p>Es una respuesta pasiva: el malestar se acumula.</p>]]></text></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Responder señalando errores de tu jefe.</p>]]></text><feedback format="html"><text><![CDATA[<p>Escala el conflicto.</p>]]></text></answer>
+</question>
+
+</quiz>
