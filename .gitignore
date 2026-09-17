@@ -1,7 +1,7 @@
 # Moodle config con credenciales
 config.php
 
-# Datos de usuarios y archivos subidos
+# Datos de usuarios y archivos subidos (fuera del docroot en producción)
 moodledata/
 
 # Archivos de test
@@ -16,3 +16,11 @@ Thumbs.db
 # IDE
 .vscode/
 .idea/
+
+# Node (Moodle usa Grunt para compilar estilos)
+node_modules/
+
+# Archivos de cPanel/servidor
+.htaccess
+.user.ini
+php.ini
