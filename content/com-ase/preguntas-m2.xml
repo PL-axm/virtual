@@ -12,10 +12,10 @@
   <generalfeedback format="html"><text><![CDATA[<p>Cerrar pidiendo la conformidad del otro («¿te funciona así?») es lo que transforma el reclamo en acuerdo.</p>]]></text></generalfeedback>
   <defaultgrade>1</defaultgrade><penalty>0</penalty><hidden>0</hidden>
   <single>true</single><shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
-  <answer fraction="100" format="html"><text><![CDATA[<p>Cerrar con el acuerdo: preguntar si la propuesta le funciona a la otra persona.</p>]]></text><feedback format="html"><text><![CDATA[<p>Correcto.</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>Describir el hecho.</p>]]></text><feedback format="html"><text><![CDATA[<p>Importante, pero suele hacerse.</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>Expresar el efecto que tuvo.</p>]]></text><feedback format="html"><text><![CDATA[<p>Importante, pero no es el que más se omite.</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>Repetir el reclamo hasta que el otro reaccione.</p>]]></text><feedback format="html"><text><![CDATA[<p>Eso no forma parte de la estructura.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Cerrar con el acuerdo: preguntar si la propuesta le funciona a la otra persona.</p>]]></text><feedback format="html"><text><![CDATA[<p>Correcto.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Describir el hecho.</p>]]></text><feedback format="html"><text><![CDATA[<p>Importante, pero suele hacerse.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Expresar el efecto que tuvo.</p>]]></text><feedback format="html"><text><![CDATA[<p>Importante, pero no es el que más se omite.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Repetir el reclamo hasta que el otro reaccione.</p>]]></text><feedback format="html"><text><![CDATA[<p>Eso no forma parte de la estructura.</p>]]></text></feedback></answer>
 </question>
 
 <question type="multichoice">
@@ -24,10 +24,10 @@
   <generalfeedback format="html"><text><![CDATA[<p>Con un superior, el «no» casi siempre es una conversación de prioridades: muestras el costo y dejas la decisión donde corresponde.</p>]]></text></generalfeedback>
   <defaultgrade>1</defaultgrade><penalty>0</penalty><hidden>0</hidden>
   <single>true</single><shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
-  <answer fraction="100" format="html"><text><![CDATA[<p>«Puedo asumirlo. Hoy tengo el cierre de facturación y el informe del cliente. ¿Cuál de los tres dejo para mañana?»</p>]]></text><feedback format="html"><text><![CDATA[<p>Correcto: muestras la carga y pides definir prioridad.</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>«Listo, yo lo hago», aunque sepas que no alcanzas.</p>]]></text><feedback format="html"><text><![CDATA[<p>Respuesta pasiva: termina en incumplimiento.</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>«Imposible, siempre me cargan todo a mí.»</p>]]></text><feedback format="html"><text><![CDATA[<p>Generaliza y reprocha: es agresivo.</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>No responder y esperar a que se lo asigne a otra persona.</p>]]></text><feedback format="html"><text><![CDATA[<p>Evadir deja el problema sin resolver.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>«Puedo asumirlo. Hoy tengo el cierre de facturación y el informe del cliente. ¿Cuál de los tres dejo para mañana?»</p>]]></text><feedback format="html"><text><![CDATA[<p>Correcto: muestras la carga y pides definir prioridad.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>«Listo, yo lo hago», aunque sepas que no alcanzas.</p>]]></text><feedback format="html"><text><![CDATA[<p>Respuesta pasiva: termina en incumplimiento.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>«Imposible, siempre me cargan todo a mí.»</p>]]></text><feedback format="html"><text><![CDATA[<p>Generaliza y reprocha: es agresivo.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>No responder y esperar a que se lo asigne a otra persona.</p>]]></text><feedback format="html"><text><![CDATA[<p>Evadir deja el problema sin resolver.</p>]]></text></feedback></answer>
 </question>
 
 <question type="truefalse">
@@ -35,8 +35,8 @@
   <questiontext format="html"><text><![CDATA[<p>Entre más razones des al negarte a una petición, más firme resulta tu negativa.</p>]]></text></questiontext>
   <generalfeedback format="html"><text><![CDATA[<p>Falso. Acumular justificaciones hace que la negativa suene negociable. Una razón breve y clara es más firme.</p>]]></text></generalfeedback>
   <defaultgrade>1</defaultgrade><penalty>0</penalty><hidden>0</hidden>
-  <answer fraction="0" format="moodle_auto_format"><text>true</text><feedback format="html"><text><![CDATA[<p>No: invita a rebatir cada razón.</p>]]></text></answer>
-  <answer fraction="100" format="moodle_auto_format"><text>false</text><feedback format="html"><text><![CDATA[<p>Correcto.</p>]]></text></answer>
+  <answer fraction="0" format="moodle_auto_format"><text>true</text><feedback format="html"><text><![CDATA[<p>No: invita a rebatir cada razón.</p>]]></text></feedback></answer>
+  <answer fraction="100" format="moodle_auto_format"><text>false</text><feedback format="html"><text><![CDATA[<p>Correcto.</p>]]></text></feedback></answer>
 </question>
 
 <question type="multichoice">
@@ -45,10 +45,10 @@
   <generalfeedback format="html"><text><![CDATA[<p>Repetir la posición con calma, sin agregar justificaciones nuevas, sostiene el límite sin escalar el conflicto.</p>]]></text></generalfeedback>
   <defaultgrade>1</defaultgrade><penalty>0</penalty><hidden>0</hidden>
   <single>true</single><shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
-  <answer fraction="100" format="html"><text><![CDATA[<p>Repetir la misma posición con calma: «Entiendo la urgencia, y mañana a mediodía es lo más pronto que puedo.»</p>]]></text><feedback format="html"><text><![CDATA[<p>Correcto.</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>Ceder para terminar la discusión.</p>]]></text><feedback format="html"><text><![CDATA[<p>Enseña que insistir funciona.</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>Subir el tono para que quede claro.</p>]]></text><feedback format="html"><text><![CDATA[<p>Convierte el límite en conflicto.</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>Inventar una excusa nueva.</p>]]></text><feedback format="html"><text><![CDATA[<p>Resta credibilidad a tu posición.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Repetir la misma posición con calma: «Entiendo la urgencia, y mañana a mediodía es lo más pronto que puedo.»</p>]]></text><feedback format="html"><text><![CDATA[<p>Correcto.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Ceder para terminar la discusión.</p>]]></text><feedback format="html"><text><![CDATA[<p>Enseña que insistir funciona.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Subir el tono para que quede claro.</p>]]></text><feedback format="html"><text><![CDATA[<p>Convierte el límite en conflicto.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Inventar una excusa nueva.</p>]]></text><feedback format="html"><text><![CDATA[<p>Resta credibilidad a tu posición.</p>]]></text></feedback></answer>
 </question>
 
 <question type="truefalse">
@@ -56,8 +56,8 @@
   <questiontext format="html"><text><![CDATA[<p>Un límite que no se comunica de manera explícita funciona igual, porque los demás lo deducen con el tiempo.</p>]]></text></questiontext>
   <generalfeedback format="html"><text><![CDATA[<p>Falso. Un límite que no comunicas no existe para los demás. Anunciarlo una vez, con calma, evita meses de molestia.</p>]]></text></generalfeedback>
   <defaultgrade>1</defaultgrade><penalty>0</penalty><hidden>0</hidden>
-  <answer fraction="0" format="moodle_auto_format"><text>true</text><feedback format="html"><text><![CDATA[<p>No.</p>]]></text></answer>
-  <answer fraction="100" format="moodle_auto_format"><text>false</text><feedback format="html"><text><![CDATA[<p>Correcto.</p>]]></text></answer>
+  <answer fraction="0" format="moodle_auto_format"><text>true</text><feedback format="html"><text><![CDATA[<p>No.</p>]]></text></feedback></answer>
+  <answer fraction="100" format="moodle_auto_format"><text>false</text><feedback format="html"><text><![CDATA[<p>Correcto.</p>]]></text></feedback></answer>
 </question>
 
 </quiz>

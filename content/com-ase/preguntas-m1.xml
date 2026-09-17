@@ -12,9 +12,9 @@
   <generalfeedback format="html"><text><![CDATA[<p>Callar el propio malestar para evitar el conflicto es el estilo pasivo. El problema no desaparece: se acumula.</p>]]></text></generalfeedback>
   <defaultgrade>1</defaultgrade><penalty>0</penalty><hidden>0</hidden>
   <single>true</single><shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
-  <answer fraction="100" format="html"><text><![CDATA[<p>Pasivo</p>]]></text><feedback format="html"><text><![CDATA[<p>Correcto. Evitas el conflicto a costa tuya.</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>Asertivo</p>]]></text><feedback format="html"><text><![CDATA[<p>No. Asertivo sería expresar tu límite y proponer una alternativa.</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>Agresivo</p>]]></text><feedback format="html"><text><![CDATA[<p>No. En el estilo agresivo se responde atacando a la otra persona.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>Pasivo</p>]]></text><feedback format="html"><text><![CDATA[<p>Correcto. Evitas el conflicto a costa tuya.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Asertivo</p>]]></text><feedback format="html"><text><![CDATA[<p>No. Asertivo sería expresar tu límite y proponer una alternativa.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>Agresivo</p>]]></text><feedback format="html"><text><![CDATA[<p>No. En el estilo agresivo se responde atacando a la otra persona.</p>]]></text></feedback></answer>
 </question>
 
 <question type="multichoice">
@@ -23,10 +23,10 @@
   <generalfeedback format="html"><text><![CDATA[<p>La frase asertiva describe hechos concretos y plantea una necesidad, sin etiquetar a la persona.</p>]]></text></generalfeedback>
   <defaultgrade>1</defaultgrade><penalty>0</penalty><hidden>0</hidden>
   <single>true</single><shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
-  <answer fraction="100" format="html"><text><![CDATA[<p>«Recibí el informe el viernes a las 6 p. m. y lo necesitaba el jueves. Necesito que acordemos una fecha realista.»</p>]]></text><feedback format="html"><text><![CDATA[<p>Correcto: hecho concreto y petición clara.</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>«Eres muy desorganizado con las entregas.»</p>]]></text><feedback format="html"><text><![CDATA[<p>Es una etiqueta sobre la persona: genera defensa.</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>«No importa, yo me las arreglo como siempre.»</p>]]></text><feedback format="html"><text><![CDATA[<p>Es una respuesta pasiva: el problema queda oculto.</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>«Todo el mundo dice que nunca cumples.»</p>]]></text><feedback format="html"><text><![CDATA[<p>Usa terceros y generaliza: aumenta el conflicto.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>«Recibí el informe el viernes a las 6 p. m. y lo necesitaba el jueves. Necesito que acordemos una fecha realista.»</p>]]></text><feedback format="html"><text><![CDATA[<p>Correcto: hecho concreto y petición clara.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>«Eres muy desorganizado con las entregas.»</p>]]></text><feedback format="html"><text><![CDATA[<p>Es una etiqueta sobre la persona: genera defensa.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>«No importa, yo me las arreglo como siempre.»</p>]]></text><feedback format="html"><text><![CDATA[<p>Es una respuesta pasiva: el problema queda oculto.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>«Todo el mundo dice que nunca cumples.»</p>]]></text><feedback format="html"><text><![CDATA[<p>Usa terceros y generaliza: aumenta el conflicto.</p>]]></text></feedback></answer>
 </question>
 
 <question type="truefalse">
@@ -34,8 +34,8 @@
   <questiontext format="html"><text><![CDATA[<p>Ser asertivo significa decir todo lo que uno piensa, en el momento en que lo piensa.</p>]]></text></questiontext>
   <generalfeedback format="html"><text><![CDATA[<p>Falso. La asertividad implica elegir qué decir, cuándo y cómo, para que el mensaje llegue.</p>]]></text></generalfeedback>
   <defaultgrade>1</defaultgrade><penalty>0</penalty><hidden>0</hidden>
-  <answer fraction="0" format="moodle_auto_format"><text>true</text><feedback format="html"><text><![CDATA[<p>No. Decir todo sin filtro suele ser agresividad.</p>]]></text></answer>
-  <answer fraction="100" format="moodle_auto_format"><text>false</text><feedback format="html"><text><![CDATA[<p>Correcto.</p>]]></text></answer>
+  <answer fraction="0" format="moodle_auto_format"><text>true</text><feedback format="html"><text><![CDATA[<p>No. Decir todo sin filtro suele ser agresividad.</p>]]></text></feedback></answer>
+  <answer fraction="100" format="moodle_auto_format"><text>false</text><feedback format="html"><text><![CDATA[<p>Correcto.</p>]]></text></feedback></answer>
 </question>
 
 <question type="multichoice">
@@ -44,10 +44,10 @@
   <generalfeedback format="html"><text><![CDATA[<p>Parafrasear confirma que entendiste y baja la tensión antes de buscar la solución.</p>]]></text></generalfeedback>
   <defaultgrade>1</defaultgrade><penalty>0</penalty><hidden>0</hidden>
   <single>true</single><shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
-  <answer fraction="100" format="html"><text><![CDATA[<p>«Déjeme confirmar: el pedido llegó incompleto y llamó dos veces sin recibir respuesta. ¿Es así?»</p>]]></text><feedback format="html"><text><![CDATA[<p>Correcto: verificas antes de responder.</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>«Eso no es culpa nuestra, es del transportador.»</p>]]></text><feedback format="html"><text><![CDATA[<p>Trasladar la culpa no resuelve y aumenta la molestia.</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>«Cálmese, no es para tanto.»</p>]]></text><feedback format="html"><text><![CDATA[<p>Minimizar la emoción del otro escala el conflicto.</p>]]></text></answer>
-  <answer fraction="0" format="html"><text><![CDATA[<p>«Lo que usted tiene que hacer es volver a pedirlo.»</p>]]></text><feedback format="html"><text><![CDATA[<p>Es un consejo apurado, antes de entender el problema.</p>]]></text></answer>
+  <answer fraction="100" format="html"><text><![CDATA[<p>«Déjeme confirmar: el pedido llegó incompleto y llamó dos veces sin recibir respuesta. ¿Es así?»</p>]]></text><feedback format="html"><text><![CDATA[<p>Correcto: verificas antes de responder.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>«Eso no es culpa nuestra, es del transportador.»</p>]]></text><feedback format="html"><text><![CDATA[<p>Trasladar la culpa no resuelve y aumenta la molestia.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>«Cálmese, no es para tanto.»</p>]]></text><feedback format="html"><text><![CDATA[<p>Minimizar la emoción del otro escala el conflicto.</p>]]></text></feedback></answer>
+  <answer fraction="0" format="html"><text><![CDATA[<p>«Lo que usted tiene que hacer es volver a pedirlo.»</p>]]></text><feedback format="html"><text><![CDATA[<p>Es un consejo apurado, antes de entender el problema.</p>]]></text></feedback></answer>
 </question>
 
 <question type="truefalse">
@@ -55,8 +55,8 @@
   <questiontext format="html"><text><![CDATA[<p>Permanecer en silencio mientras la otra persona habla es, por sí solo, escucha activa.</p>]]></text></questiontext>
   <generalfeedback format="html"><text><![CDATA[<p>Falso. La escucha activa se demuestra: parafrasear, preguntar y reconocer la emoción. El silencio solo no basta.</p>]]></text></generalfeedback>
   <defaultgrade>1</defaultgrade><penalty>0</penalty><hidden>0</hidden>
-  <answer fraction="0" format="moodle_auto_format"><text>true</text><feedback format="html"><text><![CDATA[<p>No. Se puede estar callado preparando la respuesta.</p>]]></text></answer>
-  <answer fraction="100" format="moodle_auto_format"><text>false</text><feedback format="html"><text><![CDATA[<p>Correcto.</p>]]></text></answer>
+  <answer fraction="0" format="moodle_auto_format"><text>true</text><feedback format="html"><text><![CDATA[<p>No. Se puede estar callado preparando la respuesta.</p>]]></text></feedback></answer>
+  <answer fraction="100" format="moodle_auto_format"><text>false</text><feedback format="html"><text><![CDATA[<p>Correcto.</p>]]></text></feedback></answer>
 </question>
 
 </quiz>
