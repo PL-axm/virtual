@@ -38,8 +38,10 @@ foreach ($modinfo->get_cms() as $cm) {
         echo "   = ya vista: {$cm->name}\n";
         continue;
     }
-    $completion->update_state($cm, COMPLETION_COMPLETE, $usuario->id);
-    echo "   + vista: {$cm->name}\n";
+    // Equivale a que el estudiante abra la página: es lo que dispara la finalización por vista.
+    $completion->set_module_viewed($cm, $usuario->id);
+    $estado = $completion->get_data($cm, false, $usuario->id);
+    echo "   + vista: {$cm->name} (estado {$estado->completionstate})\n";
 }
 
 // 2. Responder los cuestionarios correctamente.
