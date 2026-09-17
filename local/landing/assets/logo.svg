@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 40" width="220" height="40" role="img" aria-label="Virtual enelmapa.co">
+  <rect x="0" y="6" width="28" height="28" rx="8" fill="#2563EB"/>
+  <path d="M8 14l6 12 6-12" stroke="#fff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="19" cy="13" r="2.5" fill="#F43F5E"/>
+  <text x="38" y="26" font-family="'Plus Jakarta Sans','Inter',Arial,sans-serif" font-weight="700" font-size="17" fill="#FFFFFF">Virtual</text>
+  <text x="97" y="26" font-family="'Plus Jakarta Sans','Inter',Arial,sans-serif" font-weight="700" font-size="17" fill="#B4C5FF">enelmapa.co</text>
+</svg>
