@@ -599,3 +599,47 @@ main { padding-top: var(--hdr-h); }
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+
+/* Chips de disponibilidad en las tarjetas de curso */
+.chip {
+  display: inline-block; vertical-align: middle; margin-left: 6px; padding: 1px 8px; border-radius: 999px;
+  background: var(--c-mid); color: var(--muted);
+  font: 700 10px/16px var(--font-head); letter-spacing: .06em; text-transform: uppercase;
+}
+.chip--ok { background: rgba(16, 185, 129, .15); color: #047857; }
+
+/* Temario del curso disponible */
+.temario-sec { padding-top: 0; }
+.temario { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.temario__mod {
+  display: flex; gap: 16px; background: var(--card); border-radius: 16px; padding: 24px; box-shadow: var(--shadow-sm);
+}
+.temario__n {
+  width: 40px; height: 40px; flex-shrink: 0; border-radius: 12px; background: var(--primary); color: #fff;
+  display: flex; align-items: center; justify-content: center; font: 700 20px/1 var(--font-head);
+}
+.temario__mod h3 { font: 600 18px/26px var(--font-head); color: var(--navy-deep); margin-bottom: 8px; }
+.temario__mod ul { display: flex; flex-direction: column; gap: 6px; }
+.temario__mod li { display: flex; gap: 8px; color: var(--text-var); font-size: 14px; line-height: 21px; }
+.temario__mod .ms { font-size: 18px; color: var(--success); flex-shrink: 0; }
+.temario__cta {
+  margin-top: 24px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px;
+  background: var(--c-low); border-radius: 16px; padding: 24px;
+}
+.temario__cta p { color: var(--text-var); max-width: 42rem; }
+
+@media (max-width: 1100px) {
+  .temario { grid-template-columns: 1fr; }
+}
+@media (max-width: 767px) {
+  .temario-sec { padding-bottom: 40px; }
+  .temario { gap: 8px; }
+  .temario__mod { padding: 12px; gap: 12px; border-radius: 12px; }
+  .temario__n { width: 32px; height: 32px; font-size: 16px; border-radius: 10px; }
+  .temario__mod h3 { font-size: 16px; line-height: 24px; color: var(--text); }
+  .temario__mod li { font-size: 13px; line-height: 20px; }
+  .temario__cta { flex-direction: column; align-items: stretch; padding: 16px; margin-top: 8px; }
+  .temario__cta p { font-size: 13px; line-height: 20px; }
+  .temario__cta .btn { width: 100%; }
+  .chip { display: block; margin: 4px 0 0; width: fit-content; }
+}
