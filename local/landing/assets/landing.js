@@ -79,6 +79,18 @@
       cta: 'Inscribir a mi equipo',
       mensaje: 'Hola, vi el temario de Comunicación Asertiva y quiero inscribir a mi equipo.'
     },
+    cultura: {
+      titulo: 'Cultura empresarial e ideas de negocio innovadoras',
+      categoria: 'Emprendimiento',
+      imagen: 'cultura.jpg',
+      disponible: true,
+      meta: ['2 componentes formativos', 'Material interactivo', 'Certificado digital'],
+      intro: 'Aprende a diagnosticar el entorno empresarial, a formular ideas de negocio innovadoras y a ' +
+        'sustentar su impacto con evidencia. Material interactivo, con casos colombianos y evaluación final.',
+      nota: 'El certificado se emite al aprobar la evaluación final con 70 % o más, e incluye un código para verificarlo en línea.',
+      cta: 'Inscribir a mi equipo',
+      mensaje: 'Hola, vi el temario de Cultura empresarial e ideas de negocio y quiero inscribir a mi equipo.'
+    },
     finanzas: {
       titulo: 'Finanzas Personales',
       categoria: 'Finanzas',

@@ -141,7 +141,7 @@
       </div>
       <div class="stat">
         <span class="stat__ico stat__ico--blue only-d"><span class="ms">library_books</span></span>
-        <b class="c-blue">6</b>
+        <b class="c-blue">7</b>
         <strong><span class="only-d-inline">Cursos en catálogo</span><span class="only-m-inline">En catálogo</span></strong>
         <p class="only-d">Rutas listas para activar habilidades inmediatas en tu personal.</p>
         <p class="only-m">Formato ágil y práctico</p>
@@ -296,6 +296,25 @@
             <button class="btn btn--blue btn--block btn--sm only-d" type="button" data-curso="sst">Ver el temario<span class="ms">arrow_forward</span></button>
           </div>
           <div class="course__bar only-m"><span style="width:83%;background:#BC4800"></span></div>
+        </article>
+
+        <article class="course" data-category="liderazgo">
+          <div class="course__img only-d">
+            <img src="{{WWWROOT}}/local/landing/assets/img/cultura.jpg" alt="Dos profesionales conversando sobre un proyecto" loading="lazy" width="400" height="176">
+            <span class="course__cat c-blue"><span class="ms">store</span>Emprendimiento</span>
+            <span class="course__dur"><span class="ms">pace</span>2 componentes</span>
+          </div>
+          <div class="course__body">
+            <div class="course__mhead only-m"><span class="emoji e-blue" aria-hidden="true">🚀</span><span class="tag">2 componentes</span></div>
+            <h3>Cultura empresarial e ideas de negocio <span class="chip chip--ok">Disponible</span></h3>
+            <p>Diagnostica el entorno empresarial, formula ideas de negocio innovadoras y sustenta su impacto con evidencia.</p>
+          </div>
+          <div class="course__foot">
+            <div class="course__meta"><span><span class="ms">verified</span>Certificado<span class="only-d-inline">digital</span></span><span class="only-d-inline">100% Virtual</span>
+              <button class="course__mlink only-m" type="button" data-curso="cultura">Ver temario<span class="ms">chevron_right</span></button></div>
+            <button class="btn btn--blue btn--block btn--sm only-d" type="button" data-curso="cultura">Ver el temario completo<span class="ms">arrow_forward</span></button>
+          </div>
+          <div class="course__bar only-m"><span style="width:100%;background:#10B981"></span></div>
         </article>
 
       </div>
@@ -533,6 +552,26 @@
   </div>
 </template>
 
+<template data-temario="cultura">
+  <div class="temario">
+    <div class="temario__mod"><div class="temario__n">1</div><div><h3>Componente 1 · Entorno empresarial y cultura emprendedora</h3><ul>
+      <li><span class="ms">check_circle</span>Qué es el entorno empresarial y qué parte puede controlar la organización</li>
+      <li><span class="ms">check_circle</span>Herramientas de análisis del contexto y del sector</li>
+      <li><span class="ms">check_circle</span>Caracterización zonal, planes de desarrollo y apuestas productivas del territorio</li>
+      <li><span class="ms">check_circle</span>Técnicas de diagnóstico: encuesta, entrevista y fuentes oficiales</li>
+      <li><span class="ms">check_circle</span>Indicadores para sustentar el impacto de una idea de negocio</li></ul></div></div>
+    <div class="temario__mod"><div class="temario__n">2</div><div><h3>Componente 2 · Formulación de ideas de negocio e innovación</h3><ul>
+      <li><span class="ms">check_circle</span>Innovación incremental, disruptiva y de modelo de negocio</li>
+      <li><span class="ms">check_circle</span>Generación de alternativas y análisis de causa</li>
+      <li><span class="ms">check_circle</span>Matriz de ponderación para decidir con criterios</li>
+      <li><span class="ms">check_circle</span>Indicadores de desempeño del proceso</li>
+      <li><span class="ms">check_circle</span>Instrumentos de apoyo y financiación en Colombia</li></ul></div></div>
+    <div class="temario__mod"><div class="temario__n">3</div><div><h3>Evaluación y certificado</h3><ul>
+      <li><span class="ms">check_circle</span>Evaluación final de 14 preguntas sobre los dos componentes</li>
+      <li><span class="ms">check_circle</span>Certificado digital con código de verificación</li></ul></div></div>
+  </div>
+</template>
+
 <template data-temario="finanzas">
   <div class="temario">
     <div class="temario__mod"><div class="temario__n">1</div><div><h3>Semana 1 · Tu punto de partida</h3><ul>
@@ -604,6 +643,6 @@
   </div>
 </template>
 
-<script src="{{WWWROOT}}/local/landing/assets/landing.js?v=2" defer></script>
+<script src="{{WWWROOT}}/local/landing/assets/landing.js?v=3" defer></script>
 </body>
 </html>
